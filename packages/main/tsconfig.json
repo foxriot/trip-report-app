@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "sourceMap": false,
+    "moduleResolution": "Node",
+    "skipLibCheck": true,
+    "strict": true,
+    "isolatedModules": true,
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "/@/*": ["./src/*"]
+    },
+    "allowJs": true,
+    "checkJs": false,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "../../types/**/*.d.ts",
+    //"src/modules/knex/knexfile.js",
+    "src/standalone/modules/prefs.js"
+  ],
+  "exclude": ["**/*.spec.ts", "**/*.test.ts"]
+}
