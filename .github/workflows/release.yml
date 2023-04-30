@@ -33,7 +33,7 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: 16.15 # Locked for ffmap
+          node-version: '^18.12'
           cache: 'npm'
 
       - run: npm ci
