@@ -69,7 +69,7 @@ const StatisticsPanel = ({ data }) => {
 
 const Config = ({ onTogglePanel, isOpen, watcherOnline }) => {
   const [data, setData] = useState(null);
-  const [tabIndex, setTabIndex] = useState(0);
+  const [tabIndex, setTabIndex] = useState(2);
   const [restartNeeded, setRestartNeeded] = useState(false);
   useEffect(() => {
     const fetchData = async () => {
