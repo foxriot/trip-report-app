@@ -129,7 +129,8 @@ const Zoomed = ({
             favorite: false,
             notes: ""
           };
-          patchMetadata({ ...initialData, context: imageContext });
+          setImageMetadata({ ...initialData, context: imageContext });
+          window.databaseAPI.screenshotSet(initialData);
         }
       };
       getMetadata();
