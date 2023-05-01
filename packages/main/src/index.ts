@@ -16,7 +16,7 @@ import {
   read,
   destroy
 } from "./standalone/modules/actions.js";
-import icon from "../../../buildResources/icon_19x19.png";
+import icon from "../../../buildResources/icon_24x24.png";
 import type { ChildProcess } from "child_process";
 import { fork } from "child_process";
 import { knexInit } from "./standalone/modules/knex/knexfile.js";
